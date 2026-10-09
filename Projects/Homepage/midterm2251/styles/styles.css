@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.headflex1 {
+    font-size: 4vw;
+    line-height: 1.2em;
+}
+
+.headflex2 {
+    width: 30px;
+    height: 30px;
+}
+
+.headflex2:hover {
+    background-color: rgb(7, 84, 166);
+}
+
+h3, h4 {
+    color: white;
+    font-size: 1px;
+}
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2em;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    min-width: 300px;
+    max-width: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.imgcontainer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.flex-item-banner {
+    background-color: rgb(6, 137, 208);
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    padding: 0.5rem;
+    text-align: center;
+    width: 20%;
+}
+
+.flex-item-img {
+    max-width: 100%;
+    height: 275px;
+    border-radius: 1px;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.description {
+    border: 2px solid black;
+}
+
+.button {
+    width: 75px;
+    bottom: 25px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    flex-direction: row;
+}
+
+a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(12, 199, 228); 
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerflex {
+    padding: 10px;
+    color: rgb(136, 134, 134);
+}
+
+
+a {
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,16 @@
+div {
+    border: solid black 4px;
+    width: 100px;
+	height: 300px;
+    padding: 50px;
+    background-color: lightgray;
+    transition: background-color .5s linear; 
+    transition: border-radius .5s linear; 
+
+    text-align: center;
+}
+
+div:hover {
+    background-color: blue;
+    border-radius: 50%;
+}

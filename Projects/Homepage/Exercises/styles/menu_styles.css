@@ -1,0 +1,31 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 12px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 1.2rem;  
+    line-height: 1.5em;
+    width: 1000px;
+}
+
+body h1 {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.season {
+    color: darkblue;
+}
+
+.special {
+    color: red;
+}
+
+dd {
+    margin-bottom: 15px;
+}
+
+dt {
+    font-variant: small-caps;
+}
