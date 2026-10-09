@@ -10,7 +10,9 @@
 prioritized remediation strategies.
 
 - 🔎 Network Security Lab — Designed a private network environment using VMware; Configured Kali Linux attacker VM and Ubuntu target VM; Executed brute force attack with Nmap, openSSH, and Hydra; Implemented defensive measures using Fail2Ban; Executed Web defacement via permission manipulation
-- 
+- Python Security Log Monitoring Tool
+Developed a Python-based log-monitoring script using regular expressions to scan authentication logs for repeated failed login
+attempts and flag suspicious activity; implemented file handling and automated security alert generation for brute-force attacks.
 - 💻 Backyard Bone Brawl Game — Developed as a group, command line battleship inspired game, applied object-oriented design; utilized HTTP, sockets, and a proxy pattern for networked gameplay; coded with Java
 
 ## Tech & Interests
