@@ -1,0 +1,15 @@
+Write-Host "=== [IRSeC] Windows Service & Port Status Check ===" -ForegroundColor Cyan
+
+# Check critical services
+$services = @("W3SVC", "LanmanServer", "NTDS", "WinRM")
+foreach ($svc in $services) {
+    $status = Get-Service -Name $svc -ErrorAction SilentlyContinue
+    if ($status) {
+        Write-Host "Service [$svc]: $($status.Status)" -ForegroundColor Green
+    } else {
+        Write-Host "Service [$svc]: Not found or disabled" -ForegroundColor Yellow
+    }
+}
+
+Write-Host "`n[*] Checking active listening ports..." -ForegroundColor Cyan
+Get-NetTCPConnection -State Listen | Select-Object LocalAddress, LocalPort, OwningProcess | Format-Table -AutoSize
